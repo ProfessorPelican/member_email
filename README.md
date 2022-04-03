@@ -1,7 +1,7 @@
 # member_email
 
 ## Overall Purpose:
-This code is used to track the members of an organization in a database, including changes to the membership over time.  Only a list of members at a given time is available from the organization headquarters (with recent terminations in past month or two only), so this is the only way to track and analyze membership changes over time.  It also sends welcome emails to new members and termination emails to terminated members.
+This code is used to track the members of an organization in a database, including changes to the membership over time, based on monthly membership files as of a point in time. It also sends welcome emails to new members and termination emails to terminated members.
 
 ## Useful code aspects
 <ul>
