@@ -43,8 +43,10 @@ class ABC_Member_Email():
                                if_exists='replace')
         
         # SQLite does not have merge command, can do insert and replace 
-        # or upsert, with so many cols to update just use find and replace.
+        # or upsert, with so many cols to update just use find and replace
         # to keep shorter and replace the 3 cols to maintain with existing data.
+        # NOTE: If I was using a standard database like SQL Server instead of SQLite,
+        # I would instead call a stored procedure.
         sql_find_or_replace = '''
         INSERT OR REPLACE INTO members(
             member_number
@@ -115,7 +117,7 @@ class ABC_Member_Email():
     def _email_new_members(self):
         ''' Sends email to new members who have a start date after 10/31/21
         (when this process started) who are not marked as welcome_email_sent_yes. 
-        NOTE: ABC files are a month behind, e.g. 12/31 has join dates to 11/30'''
+        NOTE: ABC files are a month behind, e.g. 12/31 has join dates to 11/30 '''
         sql_new_members = '''
         SELECT 
             member_number
