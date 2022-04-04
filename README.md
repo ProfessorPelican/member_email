@@ -5,7 +5,7 @@ This code is used to track the members of an organization in a database, includi
 
 I created this for a small non-profit I volunteer for, so it is not proprietary.  Feel free to use for your own purposes.
 
-## Useful code aspects
+## Useful Code Aspects:
 <ul>
    <li>Connect to and update a SQLite database (MERGE is not a command in SQLite, so used INSERT OR REPLACE)</li>
    <li>Send automated emails to multiple people based on criteria using GoDaddy email</li>
