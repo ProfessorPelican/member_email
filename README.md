@@ -10,5 +10,5 @@ I created this for a small non-profit I volunteer for, so it is not proprietary.
    <li>Connect to and update a SQLite database (merge is not a command in SQLite, so use INSERT OR REPLACE)</li>
    <li>Send automated emails to multiple people based on criteria using GoDaddy email</li>
    <li>Track sent emails in database</li>
-   <li>Example of using user credentials in code with storing them in the code itself (it is stored in a separate secret file on my computer that is imported as a library and not pushed to GitHub)
+   <li>User credentials that are not stored in the code itself, but instead are in a separate file/ library that is not part of the local Git repository and thus not pushed to GitHub
 </ul>
