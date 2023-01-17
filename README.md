@@ -10,3 +10,6 @@ This code is used to track the members of an organization in a database, includi
    <li>Track sent emails in database so only send each type once to each person</li>
    <li>User credentials that are not stored in the code itself, but instead are in a separate file/ library that is not part of the local Git repository and thus not pushed to GitHub</li>
 </ul>
+
+## Personal Note:
+I created this during an object-oriented time of my life.  If I was to create this again, I probably would just put functions in a module and skip making it into a class.
