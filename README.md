@@ -8,7 +8,6 @@ This code is used to track the members of an organization in a database, includi
    <li>Connects to and updates a SQLite database (MERGE is not a command in SQLite, so used INSERT OR REPLACE)</li>
    <li>Sends automated emails to multiple people based on criteria using GoDaddy email (legacy type email, now GoDaddy uses Outlook 365)</li>
    <li>Tracks sent emails in a database so only send each type once to each person</li>
-   <li>User credentials that are not stored in the code itself, but instead are in a separate file/ library that is not part of the local Git repository and thus not pushed to GitHub (this was not for my company, which would use stronger password storage, but instead was for a low risk volunteer project)</li>
 </ul>
 
 ## Personal Note:
